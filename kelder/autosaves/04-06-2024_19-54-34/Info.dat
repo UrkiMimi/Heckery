@@ -1,0 +1,45 @@
+{
+  "_version" : "2.1.0",
+  "_songName" : "kelder.mp4",
+  "_songSubName" : "",
+  "_songAuthorName" : "Studio Massa",
+  "_levelAuthorName" : "Urki",
+  "_beatsPerMinute" : 120,
+  "_previewStartTime" : 7,
+  "_previewDuration" : 5,
+  "_songTimeOffset" : 0,
+  "_shuffle" : 0,
+  "_shufflePeriod" : 0.5,
+  "_coverImageFilename" : "kelder.png",
+  "_songFilename" : "kelder.ogg",
+  "_environmentName" : "BigMirrorEnvironment",
+  "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
+  "_environmentNames" : [
+  ],
+  "_colorSchemes" : [
+  ],
+  "_customData" : {
+    "_editors" : {
+      "_lastEditedBy" : "ChroMapper",
+      "ChroMapper" : {
+        "version" : "0.9.690"
+      }
+    }
+  },
+  "_difficultyBeatmapSets" : [
+    {
+      "_beatmapCharacteristicName" : "Standard",
+      "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "Expert",
+          "_difficultyRank" : 7,
+          "_beatmapFilename" : "ExpertStandard.dat",
+          "_noteJumpMovementSpeed" : 16,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0
+        }
+      ]
+    }
+  ]
+}
