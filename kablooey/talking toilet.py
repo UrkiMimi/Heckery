@@ -54,6 +54,7 @@ def kablooey(amount, nTime, spread):
             exData['customData']['fakeColorNotes'][fakeIndex]['b'] = exData['customData']['fakeColorNotes'][fakeIndex]['b'] + 0.001
             exData['customData']['fakeColorNotes'][fakeIndex]['customData']['disableNoteGravity'] = True
             exData['customData']['fakeColorNotes'][fakeIndex]['customData']['uninteractable'] = True
+            exData['customData']['fakeColorNotes'][fakeIndex]['customData']['spawnEffect'] = False
             exData['customData']['fakeColorNotes'][fakeIndex]['customData']['noteJumpMovementSpeed'] = 0.01
             exData['customData']['fakeColorNotes'][fakeIndex]['customData']['noteJumpStartBeatOffset'] = 3
 

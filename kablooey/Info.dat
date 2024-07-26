@@ -1,6 +1,6 @@
 {
   "_version" : "2.1.0",
-  "_songName" : "!!!!!kablooey",
+  "_songName" : "kablooey",
   "_songSubName" : "",
   "_songAuthorName" : "discord",
   "_levelAuthorName" : "Urki",
@@ -30,20 +30,6 @@
     {
       "_beatmapCharacteristicName" : "Standard",
       "_difficultyBeatmaps" : [
-        {
-          "_difficulty" : "Expert",
-          "_difficultyRank" : 7,
-          "_beatmapFilename" : "ExpertStandard.dat",
-          "_noteJumpMovementSpeed" : 20,
-          "_noteJumpStartBeatOffset" : 0,
-          "_beatmapColorSchemeIdx" : 0,
-          "_environmentNameIdx" : 0,
-          "_customData" : {
-            "_suggestions" : [
-              "Chroma"
-            ]
-          }
-        },
         {
           "_difficulty" : "ExpertPlus",
           "_difficultyRank" : 9,
