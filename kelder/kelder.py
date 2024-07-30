@@ -1,3 +1,9 @@
+'''
+This script is easily the most broken out of all the modcharts uploaded here.
+If you want to use any of these modchart scripts as a base, I highly recommend using the latest committed ones since most of those have fixed up functions.
+
+- Urki
+'''
 ### Basic preperation stuff
 import json
 import random as rand
