@@ -1,0 +1,13 @@
+{
+  "materials": {},
+  "prefabs": {
+    "note": "assets/prefabs/scaredthin/note.prefab"
+  },
+  "bundleFiles": [
+    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/lets go bowling/bundleWindows2021.vivify"
+  ],
+  "bundleCRCs": {
+    "_windows2021": 3732761716
+  },
+  "isCompressed": false
+}

@@ -1,17 +1,14 @@
 ### Basic preperation stuff
 import json
-from Noodled import *
+import Hamen
+from hamenNoodle import *
+from hamenChroma import *
 import pixArt
 import math
 import random as rand
 from copy import deepcopy
 
 
-'''
-exFile = open("ExpertStandard.dat", "r")
-exData = json.loads(exFile.read())
-exFile.close()
-'''
 
 #FUCK
 envData = open('env.dat','r')
@@ -423,8 +420,8 @@ for i in range(4):
     localRotate(270+i/2,'d3',0.25,'easeOutQuad',[0,0,i*90,0],[0,0,(i+1)*90,1])
 
 for i in range(8):
-    colorTrack(270+i/2,'d1',0,[0,0,0,1,0],[rand.uniform(0,1),rand.uniform(0,1),rand.uniform(0,1),1,0])
-    colorTrack(270+i/2,'d2',0,[0,0,0,1,0],[rand.uniform(0,1),rand.uniform(0,1),rand.uniform(0,1),1,0])
+    clrTween(270+i/2,'d1',0,[0,0,0,1,0],[rand.uniform(0,1),rand.uniform(0,1),rand.uniform(0,1),1,0])
+    clrTween(270+i/2,'d2',0,[0,0,0,1,0],[rand.uniform(0,1),rand.uniform(0,1),rand.uniform(0,1),1,0])
 
 posTweenObjekt(272,'d3',2,'easeInExpo',[0,0,0,0],[0,10,0,1])
 
@@ -433,8 +430,8 @@ staticTrail(274,32,4,shakeSteps=64)
 curveNock(276,290,posEasing='easeInQuad',rotationEasing='easeInQuad')
 
 # do note assigning
-spawnFakeNotesWithTrackAt(292,306,True,0,'bounci')
-assignNotesToTrack(292,306,'e1',False)
+spawnFakeNotesWithTrackAt(292,305.5,True,0,'bounci')
+assignNotesToTrack(292,305.5,'e1',False)
 
 dissolveBoth(278,'e1',4,0,0)
 
@@ -458,11 +455,11 @@ assignNotesToTrack(306,310,'c18beloved',True)
 
 for i in range(16):
     if i%2 == 0:
-        colorTrack(306+(i/4),'c18beloved1',0.25,[0.249,0.249,0.249,1,0],[1,0,0,1,1])
-        colorTrack(306+(i/4),'c18beloved2',0.25,[0.249,0.572,1,1,0],[0.249,0.249,0.249,1,1])
+        clrTween(306+(i/4),'c18beloved1',0.25,[0.249,0.249,0.249,1,0],[1,0,0,1,1])
+        clrTween(306+(i/4),'c18beloved2',0.25,[0.249,0.572,1,1,0],[0.249,0.249,0.249,1,1])
     else:
-        colorTrack(306+(i/4),'c18beloved1',0.25,[1,0,0,1,0],[0.249,0.249,0.249,1,1])
-        colorTrack(306+(i/4),'c18beloved2',0.25,[0.249,0.249,0.249,1,0],[0.249,0.572,1,1,1])
+        clrTween(306+(i/4),'c18beloved1',0.25,[1,0,0,1,0],[0.249,0.249,0.249,1,1])
+        clrTween(306+(i/4),'c18beloved2',0.25,[0.249,0.249,0.249,1,0],[0.249,0.572,1,1,1])
 
 
 # region panel animations for one minute mark and beyond
@@ -533,7 +530,7 @@ for i in range(16):
 
 # region end stuff
 removeGravity(378,406,False)
-rotationFly(386,403,5)
+rotationFly(379,403,5)
 ghostArrows(386,409,16,3,1)
 
 newKablooey(406, 8)

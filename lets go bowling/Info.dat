@@ -1,0 +1,57 @@
+{
+  "_version" : "2.1.0",
+  "_songName" : "lets go bowling",
+  "_songSubName" : "",
+  "_songAuthorName" : "stock",
+  "_levelAuthorName" : "Kimi",
+  "_beatsPerMinute" : 120,
+  "_previewStartTime" : 0,
+  "_previewDuration" : 4,
+  "_songTimeOffset" : 0,
+  "_shuffle" : 0,
+  "_shufflePeriod" : 0.5,
+  "_coverImageFilename" : "bowling.png",
+  "_songFilename" : "bowl.ogg",
+  "_environmentName" : "DefaultEnvironment",
+  "_allDirectionsEnvironmentName" : "GlassDesertEnvironment",
+  "_environmentNames" : [
+  ],
+  "_colorSchemes" : [
+  ],
+  "_customData" : {
+    "_assetBundle" : {
+      "_windows2019" : 2737127949,
+      "_windows2021" : 1586285520
+    },
+    "_editors" : {
+      "_lastEditedBy" : "ChroMapper",
+      "ChroMapper" : {
+        "version" : "0.11.793"
+      }
+    }
+  },
+  "_difficultyBeatmapSets" : [
+    {
+      "_beatmapCharacteristicName" : "Standard",
+      "_difficultyBeatmaps" : [
+        {
+          "_difficulty" : "Expert",
+          "_difficultyRank" : 7,
+          "_beatmapFilename" : "ExpertStandard.dat",
+          "_noteJumpMovementSpeed" : 16,
+          "_noteJumpStartBeatOffset" : 0,
+          "_beatmapColorSchemeIdx" : 0,
+          "_environmentNameIdx" : 0,
+          "_customData" : {
+            "_requirements" : [
+              "Noodle Extensions",
+              "Chroma",
+              "Vivify"
+            ],
+            "_difficultyLabel" : "s"
+          }
+        }
+      ]
+    }
+  ]
+}
