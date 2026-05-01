@@ -1,0 +1,415 @@
+{
+  "version": "3.3.0",
+  "bpmEvents": [],
+  "rotationEvents": [],
+  "colorNotes": [],
+  "bombNotes": [],
+  "obstacles": [],
+  "sliders": [],
+  "burstSliders": [],
+  "waypoints": [],
+  "basicBeatmapEvents": [
+    {
+      "b": 0,
+      "et": 3,
+      "i": 5,
+      "f": 1
+    },
+    {
+      "b": 0,
+      "et": 1,
+      "i": 5,
+      "f": 1
+    },
+    {
+      "b": 0,
+      "et": 4,
+      "i": 5,
+      "f": 1
+    },
+    {
+      "b": 0,
+      "et": 2,
+      "i": 5,
+      "f": 1
+    },
+    {
+      "b": 0,
+      "et": 0,
+      "i": 5,
+      "f": 1
+    },
+    {
+      "b": 2,
+      "et": 4,
+      "i": 1,
+      "f": 1
+    },
+    {
+      "b": 2,
+      "et": 0,
+      "i": 1,
+      "f": 1
+    },
+    {
+      "b": 2,
+      "et": 1,
+      "i": 1,
+      "f": 1
+    }
+  ],
+  "colorBoostBeatmapEvents": [],
+  "lightColorEventBoxGroups": [],
+  "lightRotationEventBoxGroups": [],
+  "lightTranslationEventBoxGroups": [],
+  "vfxEventBoxGroups": [],
+  "_fxEventsCollection": {
+    "_il": [],
+    "_fl": []
+  },
+  "basicEventTypesWithKeywords": {
+    "d": []
+  },
+  "useNormalEventsAsCompatibleEvents": true,
+  "customData": {
+    "time": 1.672,
+    "fakeColorNotes": [
+      {
+        "b": 2,
+        "x": 2,
+        "y": 1,
+        "a": 0,
+        "c": 1,
+        "d": 1,
+        "customData": {
+          "coordinates": [
+            -0.5,
+            1
+          ],
+          "color": [
+            1,
+            1,
+            1,
+            1
+          ],
+          "track": "cube"
+        }
+      }
+    ],
+    "fakeBombNotes": [],
+    "customEvents": [
+      {
+        "b": 0,
+        "t": "AssignPlayerToTrack",
+        "d": {
+          "track": "player"
+        }
+      },
+      {
+        "b": 0,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 1,
+          "track": "cube",
+          "scale": [
+            [
+              2,
+              2,
+              2,
+              0
+            ],
+            [
+              2,
+              2,
+              2,
+              0
+            ]
+          ],
+          "offsetPosition": [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              1,
+              0,
+              0
+            ]
+          ],
+          "dissolveArrow": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "b": 0,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 0.1,
+          "repeat": 0,
+          "easing": "easeLinear",
+          "track": "cube",
+          "time": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 0,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 0.25,
+          "track": "cube",
+          "dissolve": [
+            [
+              0,
+              0
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 2,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 0.25,
+          "track": "cube",
+          "dissolve": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 8.5,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 1.476,
+          "repeat": 0,
+          "easing": "easeOutQuad",
+          "track": "cube",
+          "offsetPosition": [
+            [
+              0,
+              1,
+              0,
+              0
+            ],
+            [
+              0,
+              3,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 9.976,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 1.25,
+          "repeat": 0,
+          "easing": "easeInExpo",
+          "track": "cube",
+          "offsetPosition": [
+            [
+              0,
+              3,
+              0,
+              0
+            ],
+            [
+              0,
+              0.4,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 11.226,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 2,
+          "repeat": 0,
+          "easing": "easeInOutSine",
+          "track": "cube",
+          "offsetPosition": [
+            [
+              0,
+              0.4,
+              0,
+              0
+            ],
+            [
+              0,
+              25000000,
+              0,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 11.226,
+        "t": "AnimateTrack",
+        "d": {
+          "duration": 2,
+          "repeat": 0,
+          "easing": "easeInOutSine",
+          "track": "player",
+          "localPosition": [
+            [
+              0,
+              0,
+              0,
+              0
+            ],
+            [
+              0,
+              25000000,
+              0,
+              1
+            ]
+          ]
+        }
+      }
+    ],
+    "environment": [
+      {
+        "id": "BTSEnvironment.[0]Environment",
+        "lookupMethod": "Exact",
+        "track": "player"
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[35]GlowLineC",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[6]PlayersPlace.[0]Mirror",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[6]PlayersPlace.[2]Construction",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[6]PlayersPlace.[3]RectangleFakeGlow",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[4]TrackMirror",
+        "lookupMethod": "Exact",
+        "localPosition": [
+          0.3,
+          0,
+          -92
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "localRotation": [
+          0,
+          0,
+          0
+        ],
+        "active": true
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[5]Construction",
+        "lookupMethod": "Exact",
+        "localPosition": [
+          0,
+          0,
+          -100
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "localRotation": [
+          0,
+          0,
+          0
+        ],
+        "active": true
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[34]GlowLineR",
+        "lookupMethod": "Exact",
+        "localPosition": [
+          0.6,
+          -0.05,
+          -92
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "localRotation": [
+          0,
+          0,
+          0
+        ],
+        "active": true
+      },
+      {
+        "id": "BTSEnvironment.[0]Environment.[33]GlowLineL",
+        "lookupMethod": "Exact",
+        "localPosition": [
+          -0.6,
+          -0.05,
+          -92
+        ],
+        "scale": [
+          1,
+          1,
+          1
+        ],
+        "localRotation": [
+          0,
+          0,
+          0
+        ],
+        "active": true
+      }
+    ]
+  }
+}

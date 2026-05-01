@@ -1,0 +1,52 @@
+{
+  "SongName": "@@flowtest",
+  "SubName": "",
+  "SongAuthor": "Igor",
+  "Creator": "Urki",
+  "SongLength": 244.253,
+  "ReviewType": 0,
+  "FileVersion": "0.1.2",
+  "LastEdited": "2025-12-30T05:23:11.4983641Z",
+  "Criteria": {
+    "SongName": 2,
+    "SubName": 2,
+    "SongAuthor": 2,
+    "Creator": 2,
+    "Offset": 2,
+    "BPM": 2,
+    "DifficultyOrdering": 2,
+    "Preview": 2
+  },
+  "DifficultyReviews": [
+    {
+      "DifficultyCharacteristic": "360Degree",
+      "Difficulty": "Expert",
+      "DifficultyRank": 7,
+      "Comments": [],
+      "Critera": {
+        "HotStart": 0,
+        "ColdEnd": 0,
+        "MinSongDuration": 2,
+        "Outside": 0,
+        "ProlongedSwing": 0,
+        "VisionBlock": 0,
+        "Parity": 0,
+        "Chain": 0,
+        "FusedObject": 0,
+        "Loloppe": 0,
+        "HandClap": 0,
+        "SwingPath": 0,
+        "Hitbox": 0,
+        "Slider": 0,
+        "Wall": 0,
+        "Light": 2,
+        "DifficultyLabelSize": 0,
+        "DifficultyName": 0,
+        "Requirement": 0,
+        "NJS": 1
+      },
+      "OverallComment": " \nThe map from first note to last note must be at least 45 seconds in length. \nNote Jump Speed is outside of the recommended value. \nThe map must have sufficient lighting throughout."
+    }
+  ],
+  "Comments": []
+}

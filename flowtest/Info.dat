@@ -1,0 +1,60 @@
+{
+  "_version": "2.1.0",
+  "_songName": "@@flowtest",
+  "_songSubName": "",
+  "_songAuthorName": "Igor",
+  "_levelAuthorName": "Urki",
+  "_beatsPerMinute": 170,
+  "_songTimeOffset": 0,
+  "_shuffle": 0,
+  "_shufflePeriod": 0,
+  "_previewStartTime": 12,
+  "_previewDuration": 10,
+  "_songFilename": "flow.ogg",
+  "_coverImageFilename": "Screenshot 2025-11-20 142825.png",
+  "_environmentName": "GlassDesertEnvironment",
+  "_allDirectionsEnvironmentName": "GlassDesertEnvironment",
+  "_environmentNames": [
+    "GlassDesertEnvironment"
+  ],
+  "_colorSchemes": [],
+  "_difficultyBeatmapSets": [
+    {
+      "_beatmapCharacteristicName": "360Degree",
+      "_difficultyBeatmaps": [
+        {
+          "_difficulty": "Expert",
+          "_difficultyRank": 7,
+          "_beatmapFilename": "Expert360Degree.dat",
+          "_noteJumpMovementSpeed": 18,
+          "_noteJumpStartBeatOffset": 0,
+          "_beatmapColorSchemeIdx": 0,
+          "_environmentNameIdx": 0
+        },
+        {
+          "_difficulty": "ExpertPlus",
+          "_difficultyRank": 9,
+          "_beatmapFilename": "ExpertPlus360Degree.dat",
+          "_noteJumpMovementSpeed": 16,
+          "_noteJumpStartBeatOffset": 0,
+          "_beatmapColorSchemeIdx": 0,
+          "_environmentNameIdx": 0,
+          "_customData": {
+            "_requirements": [
+              "Noodle Extensions",
+              "Chroma"
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "_customData": {
+    "_editors": {
+      "_lastEditedBy": "ChroMapper",
+      "ChroMapper": {
+        "version": "0.13.892"
+      }
+    }
+  }
+}

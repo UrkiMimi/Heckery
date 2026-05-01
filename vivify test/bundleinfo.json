@@ -1,0 +1,110 @@
+{
+  "materials": {
+    "cube": {
+      "path": "assets/materials/cube.mat",
+      "properties": {
+        "_MainTex": {
+          "Texture": ""
+        },
+        "_TintColor": {
+          "Color": "[1, 1, 1, 1]"
+        },
+        "_GlowOverride": {
+          "Float": "0"
+        },
+        "_texcoord": {
+          "Texture": ""
+        },
+        "__dirty": {
+          "Float": "0"
+        }
+      }
+    },
+    "cube2": {
+      "path": "assets/materials/cube2.mat",
+      "properties": {
+        "_MainTex": {
+          "Texture": ""
+        },
+        "_Color": {
+          "Color": "[1, 1, 1, 1]"
+        },
+        "_CustomColors": {
+          "Float": "0"
+        },
+        "_Glow": {
+          "Float": "0"
+        },
+        "_Snapping": {
+          "Float": "128"
+        }
+      }
+    },
+    "cube1": {
+      "path": "assets/materials/physics/cube1.mat",
+      "properties": {
+        "_Color": {
+          "Color": "[0, 0.3019609, 1, 1]"
+        },
+        "_GlowIntensity": {
+          "Float": "1"
+        },
+        "_RimFresnel": {
+          "Float": "10"
+        },
+        "__dirty": {
+          "Float": "0"
+        }
+      }
+    },
+    "floor": {
+      "path": "assets/materials/physics/floor.mat",
+      "properties": {
+        "_MainTex": {
+          "Texture": ""
+        },
+        "_TintColor": {
+          "Color": "[0.5283019, 0.5283019, 0.5283019, 1]"
+        },
+        "_GlowOverride": {
+          "Float": "0"
+        },
+        "_texcoord": {
+          "Texture": ""
+        },
+        "__dirty": {
+          "Float": "0"
+        }
+      }
+    },
+    "post": {
+      "path": "assets/materials/post.mat",
+      "properties": {
+        "_NoiseScale": {
+          "Float": "512"
+        },
+        "_MainTex": {
+          "Texture": ""
+        },
+        "_TimeScale": {
+          "Float": "1"
+        },
+        "_DisplacementIntensity": {
+          "Float": "0.18"
+        }
+      }
+    }
+  },
+  "prefabs": {
+    "funi cube": "assets/prefabs/funi cube.prefab",
+    "plane": "assets/prefabs/plane.prefab",
+    "rigidcube": "assets/prefabs/rigidcube.prefab"
+  },
+  "bundleFiles": [
+    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/vivify test/bundleWindows2021.vivify"
+  ],
+  "bundleCRCs": {
+    "_windows2021": 4195920981
+  },
+  "isCompressed": false
+}
