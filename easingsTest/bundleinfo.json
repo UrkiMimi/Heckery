@@ -1,0 +1,51 @@
+{
+  "materials": {},
+  "prefabs": {
+    "easingframe": "assets/prefabs/easingstress/easingframe.prefab",
+    "easeinback": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinback.prefab",
+    "easeinbounce": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinbounce.prefab",
+    "easeincirc": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeincirc.prefab",
+    "easeincubic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeincubic.prefab",
+    "easeinelastic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinelastic.prefab",
+    "easeinexpo": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinexpo.prefab",
+    "easeinoutback": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutback.prefab",
+    "easeinoutbounce": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutbounce.prefab",
+    "easeinoutcirc": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutcirc.prefab",
+    "easeinoutcubic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutcubic.prefab",
+    "easeinoutelastic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutelastic.prefab",
+    "easeinoutexpo": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutexpo.prefab",
+    "easeinoutquad": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquad.prefab",
+    "easeinoutquart": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquart.prefab",
+    "easeinoutquint": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquint.prefab",
+    "easeinoutsine": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutsine.prefab",
+    "easeinquad": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquad.prefab",
+    "easeinquart": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquart.prefab",
+    "easeinquint": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquint.prefab",
+    "easeinsine": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinsine.prefab",
+    "easelinear": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easelinear.prefab",
+    "easeoutback": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutback.prefab",
+    "easeoutbounce": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutbounce.prefab",
+    "easeoutcirc": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutcirc .prefab",
+    "easeoutcubic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutcubic.prefab",
+    "easeoutelastic": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutelastic.prefab",
+    "easeoutexpo": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutexpo.prefab",
+    "easeoutquad": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquad.prefab",
+    "easeoutquart": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquart.prefab",
+    "easeoutquint": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquint.prefab",
+    "easeoutsine": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutsine.prefab",
+    "easestep": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easestep.prefab",
+    "line": "assets/prefabs/easingstress/line.prefab",
+    "point": "assets/prefabs/easingstress/point.prefab"
+  },
+  "bundleFiles": [
+    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/@@easingsTest/bundleWindows2019.vivify",
+    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/@@easingsTest/bundleAndroid2021.vivify",
+    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/@@easingsTest/bundleWindows2021.vivify"
+  ],
+  "bundleCRCs": {
+    "_windows2019": 3883289213,
+    "_android2021": 2603902317,
+    "_windows2021": 3590324661
+  },
+  "isCompressed": true
+}

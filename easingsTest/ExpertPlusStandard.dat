@@ -1,0 +1,6316 @@
+{
+  "version": "3.3.0",
+  "bpmEvents": [],
+  "rotationEvents": [],
+  "basicBeatmapEvents": [],
+  "colorBoostBeatmapEvents": [],
+  "colorNotes": [],
+  "bombNotes": [],
+  "obstacles": [],
+  "sliders": [],
+  "burstSliders": [],
+  "waypoints": [],
+  "lightColorEventBoxGroups": [],
+  "lightRotationEventBoxGroups": [],
+  "lightTranslationEventBoxGroups": [],
+  "vfxEventBoxGroups": [],
+  "_fxEventsCollection": {
+    "_il": [],
+    "_fl": []
+  },
+  "basicEventTypesWithKeywords": {
+    "d": []
+  },
+  "useNormalEventsAsCompatibleEvents": true,
+  "customData": {
+    "customEvents": [
+      {
+        "b": 0,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/point.prefab",
+          "id": "point",
+          "track": "point"
+        }
+      },
+      {
+        "b": 0,
+        "t": "AssignTrackParent",
+        "d": {
+          "childrenTracks": [
+            "point"
+          ],
+          "parentTrack": "axis",
+          "worldPositionStays": false
+        }
+      },
+      {
+        "b": 0,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 0,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              15,
+              0
+            ]
+          ]
+        }
+      },
+      {
+        "b": 1,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/easingframe.prefab",
+          "id": "frame"
+        }
+      },
+      {
+        "b": 3,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 3,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 3,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeLinear"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 3,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easelinear.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 5,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 5,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 5,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 5,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 6,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 6,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 6,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeStep"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 6,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easestep.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 8,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 8,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 8,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 8,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 9,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 9,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 9,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInSine"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 9,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinsine.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 11,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 11,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 11,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 11,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 12,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 12,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 12,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInQuad"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 12,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquad.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 14,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 14,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 14,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 14,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 15,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 15,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 15,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 15,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeincubic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 17,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 17,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 17,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 17,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 18,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 18,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 18,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInQuart"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 18,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquart.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 20,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 20,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 20,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 20,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 21,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 21,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 21,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInQuint"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 21,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinquint.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 23,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 23,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 23,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 23,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 24,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 24,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 24,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInExpo"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 24,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinexpo.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 26,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 26,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 26,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 26,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 27,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 27,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 27,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInCirc"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 27,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeincirc.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 29,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 29,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 29,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 29,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 30,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 30,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 30,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInBack"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 30,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinback.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 32,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 32,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 32,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 32,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 33,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 33,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 33,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInElastic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 33,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinelastic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 35,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 35,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 35,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 35,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 36,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 36,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 36,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInBounce"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 36,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinbounce.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 38,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 38,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 38,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 38,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 39,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 39,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 39,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutSine"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 39,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutsine.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 41,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 41,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 41,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 41,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 42,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 42,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 42,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutQuad"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 42,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquad.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 44,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 44,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 44,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 44,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 45,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 45,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 45,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 45,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutcubic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 47,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 47,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 47,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 47,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 48,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 48,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 48,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutQuart"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 48,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquart.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 50,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 50,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 50,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 50,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 51,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 51,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 51,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutQuint"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 51,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutquint.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 53,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 53,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 53,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 53,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 54,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 54,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 54,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutExpo"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 54,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutexpo.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 56,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 56,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 56,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 56,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 57,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 57,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 57,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutCirc"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 57,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutcirc .prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 59,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 59,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 59,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 59,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 60,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 60,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 60,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutBack"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 60,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutback.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 62,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 62,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 62,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 62,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 63,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 63,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 63,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutElastic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 63,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutelastic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 65,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 65,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 65,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 65,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 66,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 66,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 66,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeOutBounce"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 66,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeoutbounce.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 68,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 68,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 68,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 68,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 69,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 69,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 69,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutSine"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 69,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutsine.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 71,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 71,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 71,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 71,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 72,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 72,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 72,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutQuad"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 72,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquad.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 74,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 74,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 74,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 74,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 75,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 75,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 75,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 75,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutcubic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 77,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 77,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 77,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 77,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 78,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 78,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 78,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutQuart"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 78,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquart.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 80,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 80,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 80,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 80,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 81,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 81,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 81,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutQuint"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 81,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutquint.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 83,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 83,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 83,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 83,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 84,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 84,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 84,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutExpo"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 84,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutexpo.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 86,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 86,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 86,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 86,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 87,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 87,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 87,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutCirc"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 87,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutcirc.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 89,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 89,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 89,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 89,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 90,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 90,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 90,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutBack"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 90,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutback.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 92,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 92,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 92,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 92,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 93,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 93,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 93,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutElastic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 93,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutelastic.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 95,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 95,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 95,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 95,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      },
+      {
+        "b": 96,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "position": [
+            [
+              -5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              5,
+              0,
+              14.9,
+              1
+            ]
+          ]
+        }
+      },
+      {
+        "b": 96,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/line.prefab",
+          "localPosition": [
+            -5,
+            -1.25,
+            14.9
+          ],
+          "id": "line",
+          "track": "point"
+        }
+      },
+      {
+        "b": 96,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1.5,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              -1.25,
+              0,
+              0
+            ],
+            [
+              0,
+              5.75,
+              0,
+              1,
+              "easeInOutBounce"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 96,
+        "t": "InstantiatePrefab",
+        "d": {
+          "asset": "assets/prefabs/easingstress/imgonnafuckingshootmyselfandmakeyoutwowatch/easeinoutbounce.prefab",
+          "position": [
+            -1,
+            6.25,
+            15
+          ],
+          "id": "txt"
+        }
+      },
+      {
+        "b": 98,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "axis",
+          "duration": 1,
+          "easing": "easeLinear",
+          "position": [
+            [
+              5,
+              0,
+              14.9,
+              0
+            ],
+            [
+              -5,
+              0,
+              14.9,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 98,
+        "t": "DestroyObject",
+        "d": {
+          "id": "line"
+        }
+      },
+      {
+        "b": 98,
+        "t": "AnimateTrack",
+        "d": {
+          "track": "point",
+          "duration": 1,
+          "easing": "easeLinear",
+          "localPosition": [
+            [
+              0,
+              5.75,
+              0,
+              0
+            ],
+            [
+              0,
+              -1.25,
+              0,
+              1,
+              "easeOutCubic"
+            ]
+          ]
+        }
+      },
+      {
+        "b": 98,
+        "t": "DestroyObject",
+        "d": {
+          "id": "txt"
+        }
+      }
+    ],
+    "materials": {},
+    "environment": [
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[0]Spectrogram",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[0]Spectrogram.[0]Spectrogram0",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[0]Spectrogram.[1]Spectrogram1",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[1]Spectrogram",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[1]Spectrogram.[0]Spectrogram0",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[11]Spectrograms.[1]Spectrogram.[1]Spectrogram1",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[12]BigTrackLaneRings",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[13]BigSmokePS",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[15]====== LIGHTS ======",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[0]LightManager",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[1]LightWrapper0",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[1]LightWrapper0.[0]DirectionalLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[2]LightWrapper1",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[2]LightWrapper1.[0]DirectionalLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[3]DirectionalLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[4]DirectionalLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[16]CoreLighting.[5]DirectionalLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[10]BasicGameHUD.[2]RightPanel.[0]BG",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[10]BasicGameHUD.[1]LeftPanel.[0]BG",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[10]BasicGameHUD.[1]LeftPanel.[1]Top",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[10]BasicGameHUD.[2]RightPanel.[1]Top",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[0]NeonTube",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[0]NeonTube.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[0]NeonTube.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[1]NeonTube (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[1]NeonTube (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[19]FrontLights.[1]NeonTube (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[2]====== STATIC ======",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[20]DoubleColorLaser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[20]DoubleColorLaser.[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[20]DoubleColorLaser.[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[20]DoubleColorLaser.[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[20]DoubleColorLaser.[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[21]DoubleColorLaser (4)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[21]DoubleColorLaser (4).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[21]DoubleColorLaser (4).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[21]DoubleColorLaser (4).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[21]DoubleColorLaser (4).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[22]DoubleColorLaser (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[22]DoubleColorLaser (1).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[22]DoubleColorLaser (1).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[22]DoubleColorLaser (1).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[22]DoubleColorLaser (1).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[23]DoubleColorLaser (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[23]DoubleColorLaser (2).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[23]DoubleColorLaser (2).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[23]DoubleColorLaser (2).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[23]DoubleColorLaser (2).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[24]DoubleColorLaser (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[24]DoubleColorLaser (3).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[24]DoubleColorLaser (3).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[24]DoubleColorLaser (3).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[24]DoubleColorLaser (3).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[25]DoubleColorLaser (5)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[25]DoubleColorLaser (5).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[25]DoubleColorLaser (5).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[25]DoubleColorLaser (5).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[25]DoubleColorLaser (5).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[26]DoubleColorLaser (6)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[26]DoubleColorLaser (6).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[26]DoubleColorLaser (6).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[26]DoubleColorLaser (6).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[26]DoubleColorLaser (6).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[27]DoubleColorLaser (8)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[27]DoubleColorLaser (8).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[27]DoubleColorLaser (8).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[27]DoubleColorLaser (8).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[27]DoubleColorLaser (8).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[28]DoubleColorLaser (7)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[28]DoubleColorLaser (7).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[28]DoubleColorLaser (7).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[28]DoubleColorLaser (7).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[28]DoubleColorLaser (7).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[29]DoubleColorLaser (9)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[29]DoubleColorLaser (9).[0]TopBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[29]DoubleColorLaser (9).[1]TopBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[29]DoubleColorLaser (9).[2]BottomBoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[29]DoubleColorLaser (9).[3]BottomBakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[3]Floor",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[3]Floor.[0]FloorSetDepth",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[0]BaseL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[0]BaseL.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[0]BaseL.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[0]BaseL.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[1]BaseR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[1]BaseR.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[1]BaseR.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[30]RotatingLasersPair.[1]BaseR.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[0]BaseL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[0]BaseL.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[0]BaseL.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[0]BaseL.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[1]BaseR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[1]BaseR.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[1]BaseR.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[31]RotatingLasersPair (1).[1]BaseR.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[0]BaseL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[0]BaseL.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[0]BaseL.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[0]BaseL.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[1]BaseR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[1]BaseR.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[1]BaseR.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[32]RotatingLasersPair (2).[1]BaseR.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[0]BaseL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[0]BaseL.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[0]BaseL.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[0]BaseL.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[1]BaseR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[1]BaseR.[0]Laser",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[1]BaseR.[0]Laser.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[33]RotatingLasersPair (3).[1]BaseR.[0]Laser.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[34]NeonTubeDirectionalL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[34]NeonTubeDirectionalL.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[34]NeonTubeDirectionalL.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[35]NeonTubeDirectionalFL",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[35]NeonTubeDirectionalFL.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[35]NeonTubeDirectionalFL.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[36]NeonTubeDirectionalR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[36]NeonTubeDirectionalR.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[36]NeonTubeDirectionalR.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[37]NeonTubeDirectionalFR",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[37]NeonTubeDirectionalFR.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[37]NeonTubeDirectionalFR.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[38]GradientBackground",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[0]BackColumnNeon",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[0]BackColumnNeon.[0]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[0]BackColumnNeon.[1]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[1]BackColumnNeon",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[1]BackColumnNeon.[0]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[4]BackColumns.[1]BackColumnNeon.[1]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[5]Construction",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[6]PlayersPlace.[0]Mirror",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[6]PlayersPlace.[1]Feet",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[6]PlayersPlace.[2]Construction",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[6]PlayersPlace.[3]RectangleFakeGlow",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[0]Mesh",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[1]NeonTubeDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[1]NeonTubeDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[1]NeonTubeDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[2]NeonTubeDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[2]NeonTubeDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[2]NeonTubeDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[3]NeonTube (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[3]NeonTube (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[7]NearBuildingLeft.[3]NeonTube (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[0]Mesh",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[1]NeonTubeDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[1]NeonTubeDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[1]NeonTubeDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[2]NeonTubeDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[2]NeonTubeDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[2]NeonTubeDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[3]NeonTube (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[3]NeonTube (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[8]NearBuildingRight.[3]NeonTube (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[1]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[10]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[11]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[12]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[13]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[14]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[15]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[2]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[3]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[4]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[5]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[6]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[7]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[8]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[0]Ring",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[1]NeonTubeBothSidesDirectional.[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[2]NeonTubeBothSidesDirectional (1).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[3]NeonTubeBothSidesDirectional (2).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3)",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[0]BakedBloom",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "GameCore.[9]BigTrackLaneRing(Clone).[4]NeonTubeBothSidesDirectional (3).[1]BoxLight",
+        "lookupMethod": "Exact",
+        "active": false
+      },
+      {
+        "id": "BigMirrorEnvironment.[0]Environment.[10]BasicGameHUD.[0]EnergyPanel",
+        "lookupMethod": "Exact",
+        "active": false
+      }
+    ],
+    "fakeColorNotes": [],
+    "fakeBombNotes": []
+  }
+}

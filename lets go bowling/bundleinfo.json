@@ -1,13 +1,92 @@
 {
-  "materials": {},
+  "materials": {
+    "cube1": {
+      "path": "assets/materials/physics/cube1.mat",
+      "properties": {
+        "_Color": {
+          "value": [
+            0.0,
+            0.301960826,
+            1.0,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_GlowIntensity": {
+          "value": 1.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_RimFresnel": {
+          "value": 10.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "__dirty": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    },
+    "floor": {
+      "path": "assets/materials/physics/floor.mat",
+      "properties": {
+        "_MainTex": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "_TintColor": {
+          "value": [
+            0.5283019,
+            0.5283019,
+            0.5283019,
+            1.0
+          ],
+          "type": {
+            "Color": null
+          }
+        },
+        "_GlowOverride": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        },
+        "_texcoord": {
+          "value": "",
+          "type": {
+            "Texture": null
+          }
+        },
+        "__dirty": {
+          "value": 0.0,
+          "type": {
+            "Float": null
+          }
+        }
+      }
+    }
+  },
   "prefabs": {
-    "note": "assets/prefabs/scaredthin/note.prefab"
+    "fuck": "assets/prefabs/fuck.prefab",
+    "unfuck": "assets/prefabs/unfuck.prefab",
+    "cube": "assets/scenes/cube.prefab"
   },
   "bundleFiles": [
-    "C:/Program Files (x86)/Steam/steamapps/common/Beat Saber/Beat Saber_Data/CustomWIPLevels/lets go bowling/bundleWindows2021.vivify"
+    "C:/Users/urki2/OneDrive/Documents/GitHub/Heckery/lets go bowling/bundleWindows2019.vivify",
+    "C:/Users/urki2/OneDrive/Documents/GitHub/Heckery/lets go bowling/bundleWindows2021.vivify"
   ],
   "bundleCRCs": {
-    "_windows2021": 3732761716
+    "_windows2019": 246857949,
+    "_windows2021": 3925983635
   },
   "isCompressed": false
 }
